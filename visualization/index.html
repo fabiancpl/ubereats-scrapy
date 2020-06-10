@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ubereats scrapy</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/46792b0938.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Mapbox script and styles -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+
+    <!-- D3 script -->    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
+
+    <!-- Vega-Lite scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.13.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
+
+    <!-- Custom styles -->
+    <link href="./css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <div id="map"></div>
+    <button onclick="home()" id="home-button"><i class="fas fa-globe-americas"></i></button>
+
+    <div class="form-group col-md-3">
+      <label for="inputState"><b style="color: white;">City</b></label>
+      <select id="inputCity" class="form-control">
+        <option value="" selected></option>
+      </select>
+    </div>
+
+    <div style="overflow: scroll; height: 300px;">
+      <div id="category_price"></div>
+    </div>
+
+    <div class="footer">
+      <table class="table table-dark">
+      <thead>
+        <tr>
+          <th scope="col">City</th>
+          <th scope="col">Category</th>
+          <th scope="col">Name</th>
+          <th scope="col">Price</th>
+          <th scope="col">Score</th>
+          <th scope="col">Reviews</th>
+          <th scope="col">Dirección</th>
+          <th scope="col">Link</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    </div>
+
+    <!-- Custom scripts -->
+    <script src="./js/viz.js"></script>
+    <script src="./js/map.js"></script>
+   
+  </body>
+</html>

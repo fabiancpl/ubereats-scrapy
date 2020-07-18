@@ -1,5 +1,7 @@
 # Ubereats scrapy
 
+->[OPEN VIZ](https://fabiancpl.github.io/ubereats-scrapy/visualization/)<-
+
 This repository contains the source code for a basic exercise of scraping, gecoding and visualization of restuarant data from the [Ubereats website](https://www.ubereats.com/co) in Colombia. The folder description is as follows:
 
 - ubereatsscrapy: A python scrapy project for extracting the restaurant data from Ubereats and downloading in JSON format. The excercise can be reproduced by running ` scrapy crawl restaurants -o ../data/restaurants.json`

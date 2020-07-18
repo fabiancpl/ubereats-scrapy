@@ -1,6 +1,6 @@
 # Ubereats scrapy
 
-## [OPEN VIZ](https://fabiancpl.github.io/ubereats-scrapy/visualization/)
+*[OPEN VIZ](https://fabiancpl.github.io/ubereats-scrapy/visualization/)*
 
 This repository contains the source code for a basic exercise of scraping, gecoding and visualization of restuarant data from the [Ubereats website](https://www.ubereats.com/co) in Colombia. The folder description is as follows:
 
